@@ -1,6 +1,8 @@
 numero = float(input('Digite o primeiro número:'))
 numero2 = float(input('Digite o segndo número:'))
+nome = input('fale seu nome: ')
 
+print("Contas de:", nome)
 sum = numero + numero2
 print('a soma é:', sum)
 menus = numero - numero2
